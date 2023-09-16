@@ -1,9 +1,9 @@
 import express from 'express';
 import fs from 'fs/promises';
-import ProductManager from './ProductManager';
+import ProductManager from './ProductManager.js';
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 const productManager = new ProductManager();
 

@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Zapato",
+      "description": "Zapato nike talla 40",
+      "price": 50000,
+      "thumbnail": "thumbnailEjemplo1.jpg",
+      "code": "j1",
+      "stock": 1
+    },
+    {
+      "id": 2,
+      "title": "Camisa",
+      "description": "Camisa manga corta",
+      "price": 10000,
+      "thumbnail": "thumbnailEjemplo2",
+      "code": "j2",
+      "stock": 5
+    }
+  ]
+  
