@@ -63,7 +63,7 @@ class ProductManager {
   console.log("Todos los productos:", allProducts);
   const productById = productManager.getProductById(2);
   console.log("Producto por ID:", productById);
-  productManager.updateProduct(2, { price: 40000 });
+  productManager.updateProduct(2, { price: 45000 });
   console.log("Producto actualizado:", productManager.getProductById(2));
   productManager.deleteProduct(1);
   console.log("Productos después de eliminar:", productManager.getProducts());
