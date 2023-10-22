@@ -9,4 +9,8 @@ router.get("/", (req, res) => {
     res.render("realTimeProducts", { products });
 });
 
+router.get("/createproduct", (req, res) => {
+    res.render('createProducts');
+});
+
 export default router;
